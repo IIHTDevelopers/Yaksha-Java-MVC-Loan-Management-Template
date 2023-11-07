@@ -115,7 +115,7 @@ public class LoanControllerTest {
 	}
 
 	@Test
-	public void testUpdateLoan() throws Exception {
+	public void testUpdatLoan() throws Exception {
 		try {
 			Loan loan = getLoan();
 			when(loanService.getLoanById(loan.getId())).thenReturn(loan);
