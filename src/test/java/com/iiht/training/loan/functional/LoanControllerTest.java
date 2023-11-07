@@ -75,7 +75,7 @@ public class LoanControllerTest {
 	}
 
 	@Test
-	public void testSaveLoan() throws Exception {
+	public void testSavLoan() throws Exception {
 		try {
 			Loan loan = getLoan();
 			MvcResult result = this.mockMvc.perform(post("/loan").flashAttr("loan", loan)).andReturn();
